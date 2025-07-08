@@ -349,7 +349,7 @@ const talkSection = {
       event_url: "#"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section

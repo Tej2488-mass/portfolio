@@ -173,7 +173,7 @@ const workExperiences = {
       role: "Web Developer & Administrator",
       company: "LAPS",
       companylogo: require("./assets/images/LAPSLOGO.png"),
-      date: "June 2018 – Present",
+      date: "June 2022 – Present",
       desc: "My role involves designing, developing, managing, and maintaining the organization's website and digital platforms to support its mission and outreach efforts..",
       descBullets: [
         "Ensure the website is user-friendly, mobile responsive, and accessible to diverse audiences.",
@@ -205,7 +205,7 @@ const workExperiences = {
 To know how to get github key look at readme.md */
 
 const openSource = {
-  showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
+  showGithubProfile: true, // Set true or false to show Contact profile using Github, defaults to true
   display: true // Set false to hide this section, defaults to true
 };
 

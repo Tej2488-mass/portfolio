@@ -20,10 +20,10 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Varney Massaley",
+  title: "Hi all, I'm Tej",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / WordPress / React Native and some other cool libraries and frameworks."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
@@ -33,13 +33,13 @@ const greeting = {
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/Tej2488-mass",
+  linkedin: "https://www.linkedin.com/in/varney-massaley/",
+  gmail: "massaleyvarney@gmail.com",
+  gitlab: "https://gitlab.com/Tej2488-mass",
+  facebook: "https://web.facebook.com/tej.parker.503/",
+  medium: "https://medium.com/@massaleyvarney",
+  stackoverflow: "https://stackoverflow.com",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -64,7 +64,7 @@ const skillsSection = {
 https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
-    {
+     {
       skillName: "html-5",
       fontAwesomeClassname: "fab fa-html5"
     },
@@ -89,8 +89,8 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-node"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
+      skillName: "WordPress",
+      fontAwesomeClassname: "fab fa-wordpress"
     },
     {
       skillName: "npm",
@@ -109,10 +109,6 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fas fa-fire"
     },
     {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
       skillName: "docker",
       fontAwesomeClassname: "fab fa-docker"
     }
@@ -126,24 +122,24 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "Starz University",
+      logo: require("./assets/images/StarzLogo.png"),
+      subHeader: "Bachelor of Information Technology in Stystem Administration",
+      duration: "September 2016 - Till now",
+      desc: "It focuses on the design, implementation, management, and maintenance of computer systems and networks.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Built a strong foundation in managing both windows and Linux systems",
+        "Practiced troubleshooting and providing IT support in simulated real-world environments."
       ]
     },
-    {
+   /* {
       schoolName: "Stanford University",
       logo: require("./assets/images/stanfordLogo.png"),
       subHeader: "Bachelor of Science in Computer Science",
       duration: "September 2013 - April 2017",
       desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
       descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
-    }
+    } */
   ]
 };
 
@@ -154,11 +150,11 @@ const techStack = {
   experience: [
     {
       Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      progressPercentage: "70%" //Insert relative proficiency in percentage
     },
     {
       Stack: "Backend",
-      progressPercentage: "70%"
+      progressPercentage: "50%"
     },
     {
       Stack: "Programming",
@@ -173,31 +169,35 @@ const techStack = {
 const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
-    {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
+   {
+      role: "Web Developer & Administrator",
+      company: "LAPS",
+      companylogo: require("./assets/images/LAPSLOGO.png"),
       date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      desc: "My role involves designing, developing, managing, and maintaining the organization's website and digital platforms to support its mission and outreach efforts..",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Ensure the website is user-friendly, mobile responsive, and accessible to diverse audiences.",
+        "implement SEO best practices to boost online visibility and search rankings."
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Founder, Developer, Content Strategist",
+      company: "Aware Lib",
+      companylogo: require("./assets/images/aware logo.png"),
+      date: "Dec 2024 – Present",
+      desc: "I'm currently developing Aware Lib, a digital platform focused on promoting Liberian art, culture, and entertainment. As the founder and lead developer...",
+      descBullets: [
+        "I'm building the site using React and Git-based tools.",
+        "Integrating Medium to feature dynamic blog content."
+      ]
     },
-    {
+  /*  {
       role: "Software Engineer Intern",
       company: "Airbnb",
       companylogo: require("./assets/images/airbnbLogo.png"),
       date: "Jan 2015 – Sep 2015",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    }
+    } */
   ]
 };
 
@@ -216,25 +216,25 @@ const bigProjects = {
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/LAPSLOGO.png"),
+      projectName: "LAPS Website",
+      projectDesc: "An NGO, dedicated to bring relief to survivors of war trauma torture as well as GBV.",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://saayahealth.com/"
+          url: "#"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/aware logo.png"),
+      projectName: "Aware Lib",
+      projectDesc: "A digital platform focused on promoting Liberian art, culture, and entertainment.",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://nextu.se/"
+          url: "#"
         }
       ]
     }
@@ -300,7 +300,7 @@ const achievementSection = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
@@ -337,10 +337,16 @@ const talkSection = {
 
   talks: [
     {
-      title: "Build Actions For Google Assistant",
-      subtitle: "Codelab at GDG DevFest Karachi 2019",
-      slides_url: "https://bit.ly/saadpasta-slides",
+      title: "How to Create a Blog in WordPress",
+      subtitle: "A Step-by-Step Beginner's Guide",
+      slides_url: "https://docs.google.com/presentation/d/1aeqbtdemVNOa2yPz-M7ZwQWe0rylK5OM/edit?usp=sharing&ouid=110375607247446714126&rtpof=true&sd=true",
       event_url: "https://www.facebook.com/events/2339906106275053/"
+    },
+    {
+      title: "Learning PATH to web development",
+      subtitle: "Take note of the PATH I took",
+      slides_url: "https://docs.google.com/presentation/d/1jOovFDOb9IGUWh5QWfPHWvqx9zdY_9vV/edit?usp=sharing&ouid=110375607247446714126&rtpof=true&sd=true",
+      event_url: "#"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -356,7 +362,7 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Resume Section
@@ -372,15 +378,15 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+   number: "+231-772-605-627",
+  email_address: "massaleyvarney@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
 const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer

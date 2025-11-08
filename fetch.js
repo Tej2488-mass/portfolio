@@ -16,7 +16,7 @@ const ERR = {
   requestFailedMedium:
     "The request to Medium didn't succeed. Check if Medium username in your .env file is correct."
 };
-if (USE_GITHUB_DATA === "true") {
+if (USE_GITHUB_DATA === "true" && GITHUB_TOKEN) {
   if (GITHUB_USERNAME === undefined) {
     throw new Error(ERR.noUserName);
   }
@@ -94,7 +94,8 @@ if (USE_GITHUB_DATA === "true") {
   req.end();
 }
 
-if (MEDIUM_USERNAME !== undefined) {
+
+if (MEDIUM_USERNAME !== undefined && MEDIUM_USERNAME !== "") {
   console.log(`Fetching Medium blogs data for ${MEDIUM_USERNAME}`);
   const options = {
     hostname: "api.rss2json.com",

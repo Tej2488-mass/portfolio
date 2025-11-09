@@ -1,0 +1,12 @@
+## Netlify configuration for the portfolio site
+## Build command runs `node fetch.js && react-scripts build` (see package.json "build" script)
+[build]
+  command = "npm run build"
+  publish = "build"
+
+## NOTE: Do NOT put secrets or tokens in this file. Configure the following environment
+## variables in the Netlify site dashboard (Site settings > Build & deploy > Environment):
+## - REACT_APP_GITHUB_TOKEN  (your GitHub personal access token)
+## - GITHUB_USERNAME        (your GitHub username)
+## - MEDIUM_USERNAME        (your Medium username, optional)
+## - USE_GITHUB_DATA        (set to "true" to enable fetching)
